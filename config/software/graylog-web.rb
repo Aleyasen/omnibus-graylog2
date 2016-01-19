@@ -4,7 +4,7 @@ default_version project.build_version
 dependency "server-jre"
 dependency "runit"
 
-source path: "/opt/repos/graylog2-web-interface/target/universal/graylog-web-interface-#{version}.tgz",
+source url: "http://bitsynet.ddns.net:5699/web/universal/graylog-web-interface-#{version}.tgz",
     md5: "fcc0141e54f426d7e4c7e3e96a0cd9e9"
 
 
